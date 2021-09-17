@@ -1,0 +1,40 @@
+.tasks {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+}
+.completed {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 5px;
+}
+.pending {
+  background-color: #F29339;
+  color: #fff;
+  padding: 5px;
+}
+.del{
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+}
+.edit{
+  background-color: blue;
+  color: #fff;
+  padding: 5px;
+}
+
+button:focus {
+  outline: none;
+  cursor: pointer;
+}
+.tasks input, textarea {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
